@@ -24,7 +24,7 @@ void draw(int* arr, int i, int j);
 void setup()
 {
 	//Create window
-	window = SDL_CreateWindow("Selection Sort", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, WIDTH, HEIGHT, 0);
+	window = SDL_CreateWindow("Sorting Visualizer", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, WIDTH, HEIGHT, 0);
 	if (window == NULL)
 	{
 		std::cout << "Window could not be created! SDL_Error" << std::endl << SDL_GetError();
